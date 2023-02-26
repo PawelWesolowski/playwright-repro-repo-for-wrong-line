@@ -1,0 +1,21 @@
+{
+  "name": "playwright-repro-repo-for-wrong-line",
+  "version": "1.0.0",
+  "description": "Repro-repo for playwright bug related to wrong line being shown by inspector when run from mocha with typescript",
+  "scripts": {
+    "test": "mocha",
+    "test-ok": "ts-node no-runner.ts"
+  },
+  "dependencies": {
+    "@playwright/test": "1.29.2",
+    "@types/mocha": "^8.2.0",
+    "mocha": "8.4.0",
+    "mocha-junit-reporter": "2.0.0",
+    "playwright": "1.29.2",
+    "ts-node": "10.9.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.4"
+  },
+  "author": "Pawel Wesolowski",
+  "license": "ISC"
+}

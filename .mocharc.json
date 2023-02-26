@@ -1,0 +1,7 @@
+{
+  "extension": ["ts"],
+  "spec": "test/**/*.uitest.ts",
+  "require": ["ts-node/register"],
+  "reporter": "mocha-junit-reporter",
+  "reporter-option": ["outputs=true", "jenkinsMode=true"]
+}

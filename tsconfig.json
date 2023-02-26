@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "rootDir": ".",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["test/**/*"],
+  "exclude": ["node_modules"]
+}
