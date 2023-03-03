@@ -1,7 +1,13 @@
 {
   "compilerOptions": {
     "outDir": "./lib",
-    "rootDir": "./test"
+    "rootDir": "./test",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": ["test/**/*"],
   "exclude": ["node_modules"]
